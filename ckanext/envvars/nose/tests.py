@@ -3,7 +3,6 @@ from nose.tools import assert_equal
 from nose.plugins.skip import SkipTest
 
 from pylons import config
-import ckan
 import ckan.plugins.toolkit as toolkit
 import ckan.plugins as p
 
