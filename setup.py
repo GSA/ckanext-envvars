@@ -60,6 +60,7 @@ setup(
     # requirements files see:
     # https://packaging.python.org/en/latest/technical.html#install-requires-vs-requirements-files
     install_requires=[],
+    setup_requires=['wheel'],
 
     # If there are data files included in your packages that need to be
     # installed, specify them here.  If using Python 2.6 or less, then these
